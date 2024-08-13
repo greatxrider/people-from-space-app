@@ -1,4 +1,4 @@
-const astrosUrl = 'https://astro-pfs-f5zy2aadt-greatxriders-projects.vercel.app/';
+const astrosUrl = 'https://pfs-api.vercel.app/';
 const wikiUrl = 'https://en.wikipedia.org/api/rest_v1/page/summary/';
 const peopleList = document.getElementById('people');
 const btn = document.querySelector('button');
