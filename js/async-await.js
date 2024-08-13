@@ -32,7 +32,7 @@ function generateHTML(data) {
     const section = document.createElement('section');
     peopleList.appendChild(section);
     // Check if request returns a 'standard' page from Wiki
-    if (person.type === 'standard') {
+    if (person.type === 'standard' && person.thumbnail) {
       section.innerHTML = `
         <img src=${person.thumbnail.source}>
         <span>${person.craft}</span>
